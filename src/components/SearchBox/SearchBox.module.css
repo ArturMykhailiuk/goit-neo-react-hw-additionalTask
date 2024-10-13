@@ -1,14 +1,14 @@
 .labelFind {
-  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  width: 415px;
 }
 
 .inputFind {
-  margin-left: 15px;
   margin-bottom: 20px;
   border: 1px solid grey;
-  width: 295px;
 }
 
 .inputFind:focus {
-  outline: 1px solid rgb(100, 100, 100);
+  outline: 1px solid #bbbbbb;
 }

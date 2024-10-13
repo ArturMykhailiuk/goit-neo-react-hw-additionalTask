@@ -1,0 +1,27 @@
+.flex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1em;
+  margin-top: 50px;
+}
+
+.labelFlex {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  font-weight: 500;
+}
+
+.regBtn {
+  height: 40px;
+  background-color: #213547;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.regBtn:hover {
+  background-color: #646cff;
+}

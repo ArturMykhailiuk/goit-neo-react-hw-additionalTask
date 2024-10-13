@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { useDispatch } from "react-redux";
-import { addContact } from "../../redux/contactsOps";
+import { addContact } from "../../redux/contacts/operations";
 import css from "./ContactForm.module.css";
 
 const ContactForm = () => {
@@ -39,7 +39,7 @@ const ContactForm = () => {
           className={css.inputNumber}
         />
       </label>
-      <button className={css.addContactBtn} type="submit">
+      <button type="submit" className={css.addContactBtn}>
         Add Contact
       </button>
     </form>

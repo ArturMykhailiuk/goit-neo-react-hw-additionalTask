@@ -6,34 +6,33 @@
   list-style: none;
   border: 1px solid grey;
   border-radius: 5px;
-  width: 400px;
-  padding: 0 10px 0 10px;
-}
-
-.contact:hover {
-  transform: scale(1.02);
+  width: 395px;
+  padding: 0 9px 0 9px;
+  gap: 5px;
 }
 
 .contactInfo {
   display: flex;
   flex-direction: column;
-  gap: 5px;
-  padding: 5px 0 5px 0;
-  font-size: 20px;
+  font-size: 18px;
+  gap: 20px;
 }
 
 .deleteBtn {
-  background-color: #dadada;
-  border: 1px solid grey;
+  background-color: #f01f30;
 }
 
-.deleteBtn:active {
-  border: 2px solid rgb(100, 100, 100);
+.editBtn {
+  background-color: #213547;
 }
 
-.icon {
+.iconName {
   width: 24px;
   height: 24px;
+}
+.iconNum {
+  width: 20px;
+  height: 20px;
 }
 
 .flexRow {
@@ -41,4 +40,29 @@
   flex-direction: row;
   align-items: center;
   gap: 5px;
+}
+
+.modalContactName {
+  font-weight: 500;
+  margin: 0;
+}
+
+.modal {
+  margin-bottom: 0;
+}
+
+.editLabel {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  font-weight: 500;
+}
+
+.actions {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }

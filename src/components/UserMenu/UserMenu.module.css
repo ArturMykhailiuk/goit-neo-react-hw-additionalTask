@@ -1,0 +1,21 @@
+.userMenu {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+}
+
+.logoutBtn {
+  background-color: #f01f30;
+}
+
+.logoutBtn:hover {
+  background-color: #646cff;
+}
+
+.name {
+  font-size: 16px;
+  font-weight: 500;
+  color: #fff;
+  margin: 0;
+}
