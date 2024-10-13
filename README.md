@@ -1,3 +1,3 @@
-# Vercel Live Page HW-7
+# Vercel Live Page HW - Aditional Task
 
-https://goit-neo-react-hw-module7-three.vercel.app/
+https://goit-neo-react-hw-additional-task.vercel.app/
