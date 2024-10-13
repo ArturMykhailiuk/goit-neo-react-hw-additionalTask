@@ -8,10 +8,9 @@ const AppBar = () => {
   const isLoggedIn = useSelector(selectIsLoggedIn);
 
   return (
-    <header>
-      <Navigation />
-      {isLoggedIn ? <UserMenu /> : <AuthNav />}
-    </header>
+    <>
+      <Navigation /> {isLoggedIn ? <UserMenu /> : <AuthNav />}
+    </>
   );
 };
 

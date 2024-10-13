@@ -3,10 +3,15 @@ import AppBar from "../AppBar/AppBar";
 
 const Layout = () => {
   return (
-    <>
-      <AppBar />
-      <Outlet />
-    </>
+    <div>
+      <header>
+        <AppBar />
+      </header>
+      <main>
+        <Outlet />
+      </main>
+      <footer></footer>
+    </div>
   );
 };
 
